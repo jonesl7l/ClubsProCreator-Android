@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/trait_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/outline_background" />
+
+    <TextView
+        android:id="@+id/trait_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@id/trait_cost"
+        app:layout_constraintEnd_toEndOf="@id/trait_image"
+        app:layout_constraintStart_toStartOf="@id/trait_image"
+        app:layout_constraintTop_toTopOf="@id/trait_image"
+        tools:text="Heading Acc:4\nVolleys:4" />
+
+    <TextView
+        android:id="@+id/trait_cost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@id/trait_image"
+        app:layout_constraintEnd_toEndOf="@id/trait_image"
+        app:layout_constraintStart_toStartOf="@id/trait_image"
+        app:layout_constraintTop_toBottomOf="@id/trait_value"
+        tools:text="Cost:5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

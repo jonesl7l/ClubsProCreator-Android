@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95792495379",
+    "project_id": "clubsprocreator",
+    "storage_bucket": "clubsprocreator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95792495379:android:bbb143574f9a3a2e8cb8e6",
+        "android_client_info": {
+          "package_name": "com.jonesl7l.clubsProCreator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95792495379-clo7i8ji4s1tufgmogabm466i8rhfes4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8VYTBKTWwjTpXNTGsgjyxEmPOSbzX_BU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95792495379-clo7i8ji4s1tufgmogabm466i8rhfes4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

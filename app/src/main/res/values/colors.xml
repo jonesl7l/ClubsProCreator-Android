@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/white</color>
+    <color name="color_primary_dark">#546270</color>
+    <color name="color_accent">#1D4178</color>
+    <color name="color_selected">#FFAA00</color>
+    <color name="white">#ffffff</color>
+    <color name="light_grey">#dde0e2</color>
+    <color name="text_button_primary">@color/white</color>
+    <color name="dark_grey">#444444</color>
+    <color name="background_fade">#DD000000</color>
+    <color name="button_background">#1D4178</color>
+    <color name="aqua_50">#7F00c2b5</color>
+    <color name="progressBase">#1D6678</color>
+    <color name="progress_green">#7FFFAA</color>
+
+</resources>

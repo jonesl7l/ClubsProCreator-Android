@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Clubs Pro Creator</string>
+
+<!-- Login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_full_name">Full Name (optional)</string>
+    <string name="action_guest">Guest Login</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="email_address_error">Please enter a correct email address</string>
+    <string name="password_error">Please enter a correct password</string>
+    <string name="full_name_error">Please enter your full name</string>
+    <string name="input_valid">Input is valid!</string>
+
+<!--  Stats  -->
+    <string name="base_stat_value_template">{BASE_STAT}</string>
+    <string name="boosted_stat_value_template">{BASE_STAT} +{BOOST}</string>
+
+<!--  Physical  -->
+    <string name="physical_title">Physical</string>
+    <string name="physical_jumping">Jumping</string>
+    <string name="physical_stamina">Stamina</string>
+    <string name="physical_strength">Strength</string>
+    <string name="physical_reactions">Reactions</string>
+    <string name="physical_aggression">Aggression</string>
+
+    <string name="physical_trait_str_one">Strength+1</string>
+    <string name="physical_trait_str_two">Strength+2</string>
+    <string name="physical_trait_reactions_three">Reactions+3</string>
+    <string name="physical_trait_aggression_two">Aggression+2</string>
+    <string name="physical_trait_aggression_three">Aggression+3</string>
+    <string name="physical_trait_bull">Strength+6\nAggression+6</string>
+
+<!--  Defending  -->
+    <string name="defending_title">Defending</string>
+    <string name="defending_def_awareness">Defensive Awareness</string>
+    <string name="defending_interceptions">Interceptions</string>
+    <string name="defending_standing_tackle">Standing Tackle</string>
+    <string name="defending_slide_tackle">Slide Tackle</string>
+
+<!--  Dribbling  -->
+    <string name="dribbling_title">Dribbling</string>
+    <string name="dribbling_agility">Agility</string>
+    <string name="dribbling_balance">Balance</string>
+    <string name="dribbling_att_position">Attack Position</string>
+    <string name="dribbling_ball_control">Ball Control</string>
+    <string name="dribbling_dribbling">Dribbling</string>
+    <string name="dribbling_skill_moves">Skill Moves</string>
+
+<!--  Passing  -->
+    <string name="passing_title">Passing</string>
+    <string name="passing_vision">Vision</string>
+    <string name="passing_crossing">Crossing</string>
+    <string name="passing_short">Short Pass</string>
+    <string name="passing_long">Long Pass</string>
+    <string name="passing_curve">Curve</string>
+
+<!--  Shooting  -->
+    <string name="shooting_title">Shooting</string>
+    <string name="shooting_finishing">Finishing</string>
+    <string name="shooting_fk_acc">Free Kick Acc.</string>
+    <string name="shooting_heading_acc">Heading Acc.</string>
+    <string name="shooting_shot_power">Shot Power</string>
+    <string name="shooting_long_shot">Long Shots</string>
+    <string name="shooting_volleys">Volleys</string>
+    <string name="shooting_penalties">Penalties</string>
+    <string name="shooting_weak_foot">Weak Foot</string>
+
+<!--  Pace  -->
+    <string name="pace_title">Pace</string>
+    <string name="pace_acceleration">Acceleration</string>
+    <string name="pace_sprint_speed">Sprint Speed</string>
+
+<!--  Heights  -->
+    <string name="height_template">Height: {HEIGHT}</string>
+    <string name="height_inches_5_3">5\'3"</string>
+    <string name="height_inches_5_4">5\'4"</string>
+    <string name="height_inches_5_5">5\'5"</string>
+    <string name="height_inches_5_6">5\'6"</string>
+    <string name="height_inches_5_7">5\'7"</string>
+    <string name="height_inches_5_8">5\'8"</string>
+    <string name="height_inches_5_9">5\'9"</string>
+    <string name="height_inches_5_10">5\'10"</string>
+    <string name="height_inches_5_11">5\'11"</string>
+    <string name="height_inches_6_0">6\'0"</string>
+    <string name="height_inches_6_1">6\'1"</string>
+    <string name="height_inches_6_2">6\'2"</string>
+    <string name="height_inches_6_3">6\'3"</string>
+    <string name="height_inches_6_4">6\'4"</string>
+    <string name="height_inches_6_5">6\'5"</string>
+    <string name="height_inches_6_6">6\'6"</string>
+    <string name="height_inches_6_7">6\'7"</string>
+
+<!--  Weights  -->
+    <string name="weight_template">Weight: {WEIGHT}</string>
+    <string name="weight_pounds_99_to_119">99lbs to 119lbs</string>
+    <string name="weight_pounds_121_to_149">121lbs to 149lbs</string>
+    <string name="weight_pounds_152_to_174">152lbs to 174lbs</string>
+    <string name="weight_pounds_176_to_198">176lbs to 198lbs</string>
+    <string name="weight_pounds_200_to_224">200lbs to 224lbs</string>
+    <string name="weight_pounds_227_to_253">227lbs to 253lbs</string>
+
+<!--  Position  -->
+    <string name="position_template">Position: {POSITION}</string>
+    <string name="position_st">ST</string>
+    <string name="position_cf_lf_rf">CF, LF, RF</string>
+    <string name="position_lw_rw">LW, RW</string>
+    <string name="position_lm_rm">LM, RM</string>
+    <string name="position_cam">CAM</string>
+    <string name="position_cm">CM</string>
+    <string name="position_cdm">CDM</string>
+    <string name="position_lwb_rwb">LWB, RWB</string>
+    <string name="position_lb_rb">LB, RB</string>
+    <string name="position_cb">CB</string>
+    <string name="position_gk">GK</string>
+
+<!--  Skill Points  -->
+    <string name="skill_points_template">Skill Points: {TOTAL_POINTS} / {BASE_POINTS} </string>
+
+<!--  Running Style  -->
+    <string name="running_style_template">Running Style: {STYLE}</string>
+    <string name="running_style_controlled">Controlled</string>
+    <string name="running_style_explosive">Explosive</string>
+    <string name="running_style_lengthy">Lengthy</string>
+
+<!--  Preferred Foot  -->
+    <string name="preferred_foot_template">Preferred Foot: {FOOT}</string>
+    <string name="preferred_foot_left">Left</string>
+    <string name="preferred_foot_right">Right</string>
+    <string name="preferred_foot_left_short">L</string>
+    <string name="preferred_foot_right_short">R</string>
+
+<!--  Traits  -->
+    <string name="trait_not_enough">Not enough Skill Points!</string>
+    <string name="trait_requirements_not_met">Required Traits not selected!</string>
+    <string name="trait_cost_template">Cost:{COST}</string>
+
+<!--  Titles  -->
+    <string name="physical_left_title">Physical Left Tree</string>
+    <string name="physical_right_title">Physical Right Tree</string>
+
+<!--  General  -->
+    <string name="lottie_loading">loading.json</string>
+
+</resources>
